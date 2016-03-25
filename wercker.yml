@@ -34,3 +34,6 @@ deploy:
   steps:
     - add-to-known_hosts:
         hostname: y4shiro.net
+        
+    - mktemp:
+        envvar: PRIVATEKEY_PATH
