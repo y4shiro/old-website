@@ -26,3 +26,6 @@ build:
           echo "hello world!"
   after-steps:
     - slack-notifier:
+        url: $SLACK_URL
+        channel: deploy-logs
+        username: werckerbot
