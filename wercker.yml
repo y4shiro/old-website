@@ -34,6 +34,19 @@ deploy:
   steps:
     - add-to-known_hosts:
         hostname: y4shiro.net
-        
+
     - mktemp:
         envvar: PRIVATEKEY_PATH
+
+    - create-file:
+        name: write key
+        filename: $PRIVATEKEY_PATH
+        content: $SAKURA_KEY_PRIVATE
+        overwrite: true
+        hide-from-log: true
+
+  after-steps:
+    - wantedly/pretty-slack-notify:
+        webhook_url: $SLACK_WEBHOOK_URL
+        channel: deploy-logs
+        username: werckerbot
