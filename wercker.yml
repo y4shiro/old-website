@@ -19,13 +19,8 @@ build:
     # Steps make up the actions in your pipeline
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
-    steps:
-        - script:
-            name: echo
-            code: |
-            echo "hello world!"
-    after-steps:
-        - slack-notifier:
-            url: $SLACK-URL
-            channel: deploy-log
-            username: werckerbot
+  steps:
+    - script:
+        name: echo
+        code: |
+          echo "hello world!"
