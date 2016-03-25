@@ -29,4 +29,8 @@ build:
         webhook_url: $SLACK_WEBHOOK_URL
         channel: deploy-logs
         username: werckerbot
-        
+
+deploy:
+  steps:
+    - add-to-known_hosts:
+        hostname: y4shiro.net
