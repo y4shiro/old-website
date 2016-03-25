@@ -26,6 +26,6 @@ build:
           echo "hello world!"
   after-steps:
     - wantedly/pretty-slack-notify:
-        url: $SLACK_URL
+        url: $SLACK_WEBHOOK_URL
         channel: deploy-logs
         username: werckerbot
