@@ -51,8 +51,8 @@ deploy:
           pwd
           ls -la
           #rsync -avzr -e "ssh -p 12555 -i $PRIVATEKEY_PATH -o StrictHostkeyChecking=no -o UserKnownHostsFile=no" $WERCKER_ROOT/_site/* wercker@y4shiro.net: /var/www/html/y4shiro
-          rsync -avzr -e "ssh -i $PRIVATEKEY_PATH -P12555 -o StrictHostKeyChecking=no -o UserKnownHostsFile=no" $WERCKER_ROOT/public/* wercker@y4shiro.net:/var/www/html/y4shiro/
-          #scp -i $PRIVATEKEY_PATH -P 12555 -o StrictHostKeyChecking=no -o UserKnownHostsFile=no $WERCKER_ROOT/public/* wercker@y4shiro.net:/var/www/html/y4shiro/
+          #rsync -avzr -e "ssh -i $PRIVATEKEY_PATH -P12555 -o StrictHostKeyChecking=no -o UserKnownHostsFile=no" $WERCKER_ROOT/public/* wercker@y4shiro.net:/var/www/html/y4shiro/
+          scp -i $PRIVATEKEY_PATH -P 12555 -o StrictHostKeyChecking=no -o UserKnownHostsFile=no $WERCKER_ROOT/public/* wercker@y4shiro.net:/var/www/html/y4shiro/
 
   after-steps:
     - wantedly/pretty-slack-notify:
