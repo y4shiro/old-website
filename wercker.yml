@@ -29,3 +29,4 @@ build:
         webhook_url: $SLACK_WEBHOOK_URL
         channel: deploy-logs
         username: werckerbot
+        
