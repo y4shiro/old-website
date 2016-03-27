@@ -1,0 +1,5 @@
+.jumbotron-extend{
+	position: relative;
+	height: 100vh;
+	min-height: 300px;
+}
