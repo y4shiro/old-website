@@ -1,8 +1,9 @@
+/* トップ */
 .jumbotron-extend{
 	height: 100vh;
 	min-height: 350px;
 	margin-bottom: 60px;
-	background: url(../img/main.jpg) no-repeat center center;
+	/*background: url(../img/main.jpg) no-repeat center center;*/
 	background-size: cover;
 }
 
@@ -37,4 +38,26 @@
 	position: absolute;
 	bottom: 32px;
 	left: 46px;
+}
+
+/* コンテンツ */
+.contents{
+	max-width: 990px;
+	margin: 0 auto;
+}
+
+.content-primary,
+.content-secondary{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.content-primary{
+	float: left;
+	width: 52.08%;
+}
+
+.content-secondary{
+	float: right;
+	width: 37.92%;
 }
