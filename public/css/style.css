@@ -1,9 +1,15 @@
+/* ナビバー */
+.navbar{
+	margin-bottom: 0;
+}
+
 /* トップ */
 .jumbotron-extend{
 	height: 100vh;
 	min-height: 350px;
-	margin-bottom: 60px;
+	margin-bottom: 0px;
 	/*background: url(../img/main.jpg) no-repeat center center;*/
+	background-color: #EEE;
 	background-size: cover;
 }
 
