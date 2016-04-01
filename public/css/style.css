@@ -46,6 +46,10 @@
 	left: 46px;
 }
 
+.a-icon{
+	color: #000;
+}
+
 /* コンテンツ */
 .contents{
 	max-width: 990px;
