@@ -41,9 +41,9 @@
 }
 
 .sns-button{
-	position: absolute;
-	bottom: 32px;
-	left: 46px;
+	/*position: absolute;*/
+	/*bottom: 32px;*/
+	/*left: 46px;*/
 }
 
 .a-icon{
@@ -53,21 +53,29 @@
 /* コンテンツ */
 .contents{
 	max-width: 990px;
-	margin: 0 auto;
+	margin: 0 0;
 }
 
 .content-primary,
 .content-secondary{
 	padding-left: 0;
 	padding-right: 0;
+	height: 200px;
 }
 
 .content-primary{
-	float: left;
-	width: 52.08%;
+	background-color: #BBB;
 }
 
 .content-secondary{
-	float: right;
-	width: 37.92%;
+	background-color: #EEE;
+
+}
+
+.content-title{
+	text-align: center;
+}
+
+#contact{
+
 }
