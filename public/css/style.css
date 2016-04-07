@@ -8,8 +8,7 @@
 	height: 100vh;
 	min-height: 350px;
 	margin-bottom: 0px;
-	/*background: url(../img/main.jpg) no-repeat center center;*/
-	background-color: #EEE;
+	background-color: #42b2ff;
 	background-size: cover;
 }
 
@@ -24,8 +23,9 @@
 }
 
 .site-name{
-	margin-bottom: 60px;
+	font-size: 64px;
 	font-family: 'Playfair Display', serif;
+	color: #FFF;
 }
 
 .btn-black{
