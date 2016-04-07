@@ -8,7 +8,7 @@
 	height: 100vh;
 	min-height: 350px;
 	margin-bottom: 0px;
-	background-color: #42b2ff;
+	background-color: #6690b9;
 	background-size: cover;
 }
 
@@ -25,7 +25,7 @@
 .site-name{
 	font-size: 64px;
 	font-family: 'Playfair Display', serif;
-	color: #FFF;
+	color: #DDD;
 }
 
 .btn-black{
@@ -64,11 +64,11 @@
 }
 
 .content-primary{
-	background-color: #BBB;
+	background-color: #eee;
 }
 
 .content-secondary{
-	background-color: #EEE;
+	background-color: #6690b9;
 
 }
 
