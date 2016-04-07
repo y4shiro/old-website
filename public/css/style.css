@@ -24,15 +24,17 @@
 
 .site-name{
 	font-size: 64px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
 	color: #DDD;
+	text-align: center;
 }
 
 .btn-black{
 	border-radius: 0;
 	background-color: #000;
 	color: #fff;
-	font-family: 'Avenir', serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .btn-black:hover{
@@ -40,17 +42,12 @@
 	color: #000;
 }
 
-.sns-button{
-	/*position: absolute;*/
-	/*bottom: 32px;*/
-	/*left: 46px;*/
-}
 
+/* コンテンツ */
 .a-icon{
 	color: #000;
 }
 
-/* コンテンツ */
 .contents{
 	max-width: 990px;
 	margin: 0;
@@ -75,6 +72,8 @@
 .content-title{
 	text-align: center;
 	font-size: 32px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
 }
 
 #contact{
