@@ -76,6 +76,17 @@
 }
 
 #contact{
+	width: 320px;
+	margin: auto auto;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+ul.contact{
+
+}
+
+ul.contact li{
 
 }
 
@@ -84,4 +95,7 @@
 	background-color: #eee;
 	height: 100px;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	color: #000;
 }
