@@ -83,5 +83,7 @@
 
 /* フッター */
 .footer{
+	background-color: #eee;
+	height: 100px;
 	text-align: center;
 }
