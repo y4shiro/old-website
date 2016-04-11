@@ -1,3 +1,12 @@
+/* レスポンシブ対応　font-sizeの基準 */
+html { font-size: 62.5%;} /* = 10px */
+body { font-size: 16px; font-size: 1.6rem; } /* = 16px */
+h1 { font-size: 32px; font-size: 3.2rem; }　/* = 16px */
+h2 { font-size: 24px; font-size: 2.4rem; }　/* = 16px */
+h3 { font-size: 20px; font-size: 2.0rem; }　/* = 16px */
+h4 { font-size: 18px; font-size: 1.8rem; }　/* = 16px */
+p { font-size: 16px; font-size: 1.6rem; }　/* = 16px */
+
 /* ナビバー */
 .navbar{
 	margin-bottom: 0;
