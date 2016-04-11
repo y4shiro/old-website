@@ -23,10 +23,10 @@
 	padding-right: 30px;
 }
 
-.site-name{
-	font-size: 7rem; /* 84px */
+h1.site-name{
+	font-size: 8rem; /* 84px */
 	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
+	font-weight: 400;
 	color: #EEE;
 	text-align: center;
 }
