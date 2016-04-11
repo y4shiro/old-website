@@ -24,7 +24,7 @@
 }
 
 .site-name{
-	font-size: 84px;
+	font-size: 7rem; /* 84px */
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	color: #EEE;
