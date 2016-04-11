@@ -10,6 +10,7 @@
 	margin-bottom: 0px;
 	background-color: #f9f8f3;
 	background-size: cover;
+	background-image: url(../img/header.png);
 }
 
 .jumbotron-container{
@@ -26,7 +27,7 @@
 	font-size: 64px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
-	color: #333;
+	color: #EEE;
 	text-align: center;
 }
 
