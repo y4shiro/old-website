@@ -69,12 +69,13 @@ h1.site-name{
 }
 
 .content-primary{
+	height: 60vh;
 	background-color: #eee;
 }
 
 .content-secondary{
+	height: 60vh;
 	background-color: #f9f8f3;
-
 }
 
 h2.content-title{
