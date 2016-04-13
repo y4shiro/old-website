@@ -6,6 +6,7 @@ h2 { font-size: 24px; font-size: 2.4rem; }　/* = 16px */
 h3 { font-size: 20px; font-size: 2.0rem; }　/* = 16px */
 h4 { font-size: 18px; font-size: 1.8rem; }　/* = 16px */
 p { font-size: 16px; font-size: 1.6rem; }　/* = 16px */
+a { font-size: 16px; font-size: 1.6rem; }
 
 /* ナビバー */
 .navbar{
@@ -69,12 +70,12 @@ h1.site-name{
 }
 
 .content-primary{
-	height: 60vh;
+	height: 30rem;
 	background-color: #eee;
 }
 
 .content-secondary{
-	height: 60vh;
+	height: 30rem;
 	background-color: #f9f8f3;
 }
 
